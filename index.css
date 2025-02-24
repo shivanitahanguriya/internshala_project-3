@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(249, 124, 236);
+  background-image: linear-gradient(rgb(249, 124, 236), rgb(18, 71, 111));
+}
+
+
+header {
+  color: aliceblue;
+  padding: 1rem;
+  text-align: center;
+}
+
+#hearder {
+  height: 100px;
+  text-align: center;
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+.main {
+  /* box-sizing: border-box; */
+  width: 800px;
+  /* border: 1px solid black; */
+  /* text-align: center; */
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: rgb(8, 18, 26);
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 12px;
+  /* border: 1px solid #ccc; */
+  border-radius: 18px;
+  /* box-sizing: border-box; */
+}
+
+.button {
+  color: rgb(8, 18, 26);
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #141313;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: linear-gradient(rgb(249, 124, 236), rgb(18, 71, 111));
+
+}
+
+/* Table Section */
+
+h2 {
+  text-align: center;
+}
+
+#student-list {
+  margin: 2rem auto;
+  width: 80%;
+}
+
+#student-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#student-list th,
+#student-list td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+#student-list th {
+  background-color: #4c4eaf;
+  color: white;
+}
+
+#student-list tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#student-list button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
